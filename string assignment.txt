@@ -1,0 +1,64 @@
+str="abcdefg"
+print(len(str))
+ 
+str1="James"
+print(str1[0::2]) 
+
+str2="JhonDipPeta"
+print(str2[4:7])
+
+s1="Ault"
+s2="Kelly"
+print((s1[:2]+s2[:2]+s2[2:]+s1[2:]))
+
+s3 = "America"
+s4 = "Japan"
+print((s3[0]+s4[0]+s3[3]+s4[2:]))
+
+
+Input="I@#am26at^&i5ve" 
+char=symbol=digit=0
+for i in range(len(Input)):
+    if(Input[i].isalpha()):
+     char=char+1
+    elif(Input[i].isdigit()):
+       digit=digit+1
+    else:
+      symbol=symbol+1
+print("total no. of character:",char)  
+print("total no. of digit:",digit) 
+print("total no. of symbol:",symbol) 
+
+               
+I="IamLearningPython"   
+print(I[-1::-1])
+
+I2 = "Emma is a data scientist who knows Python. Emma works at google."
+print(I2.index("Emma",1))
+
+case = "IamLearningPython"
+upper = []
+lower = []
+for i in case:
+  if i.isupper():
+   upper.append(i)
+  else:
+   lower.append(i)    
+print(upper)   
+print(lower)   
+lower.extend(upper)
+print(lower)
+print(''.join(lower))
+
+
+
+
+given = "Welcome to USA. usa awesome, isn't it?"
+given_list = given.split(" ")
+ 
+res = 0
+for el in given_list:
+  word = el.strip(".")
+  if word.casefold() == "usa":
+    res+= 1
+print(res)   
