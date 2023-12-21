@@ -5,8 +5,8 @@ sum = 0
 previous_no = 0
 for i in range(10):
   current_no = i 
-  previous_no = abs(current_no - 1)
-  sum = current_no + previous_no 
+  previous_no = (current_no - 1)
+  sum = current_no + abs(previous_no) 
   print("Current Number:",current_no, " Previous Number:", previous_no, "Sum:",sum)
 
 
