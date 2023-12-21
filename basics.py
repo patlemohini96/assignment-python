@@ -47,6 +47,20 @@ else:
    print("number is not palindrom") 
 
 
+def palindrom(num):
+   rev = num
+   if num == rev[::-1]:
+      return num
+   
+number =(input("enter number:-"))
+print("number-",number)
+print("number-",number[::-1])
+if palindrom(number):
+   print("number is palindrom")
+else: 
+   print("number is not palindrom") 
+
+
 
 
 
