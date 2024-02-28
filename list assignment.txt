@@ -28,7 +28,7 @@ print(num2)
 
 num3 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
 l1 = num3[2][2]
-num3.append(7000) 
+l1.append(7000) 
 print(num3)
   
 #5)Extend the nested list by adding the sublist. You have given a nested list. Write a program to extend it by adding the sublist ["h", "i", "j"] in such a way that it will look like the following list.
