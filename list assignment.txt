@@ -131,7 +131,7 @@ odd = []
 
 for i in range(len(num8)):
  
- if i%2 == 0:
+ if  num8[i]%2 == 0:
   even.append(num8[i])
  else:
   odd.append(num8[i]) 
