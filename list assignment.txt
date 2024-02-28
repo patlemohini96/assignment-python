@@ -99,6 +99,16 @@ print(add)
 num = [2,3,2,4,7,8]
 m = max(num)
 print(m)
+
+OR-----------
+
+num = [2,3,2,4,7,8]
+max = 0
+for i in range(len(num)):
+    if max<num[i]:
+        max=num[i]
+    
+print(max)   
     
     
     
